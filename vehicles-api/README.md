@@ -6,25 +6,15 @@ view of vehicle details including price and address.
 ## Features
 
 - REST API exploring the main HTTP verbs and features
-- Hateoas
 - Custom API Error handling using `ControllerAdvice`
 - Swagger API docs
 - HTTP WebClient
 - MVC Test
-- Automatic model mapping
-
-## Instructions
-
-#### TODOs
-
-- Implement the `TODOs` within the `CarService.java` and `CarController.java`  files
-- Add additional tests to the `CarControllerTest.java` file based on the `TODOs`
-- Implement API documentation using Swagger
 
 #### Run the Code
 
-To properly run this application you need to start the Orders API and
-the Service API first.
+To properly run this application you need to start the Maps API and
+the Pricing API first.
 
 
 ```
@@ -35,7 +25,7 @@ $ mvn clean package
 $ java -jar target/vehicles-api-0.0.1-SNAPSHOT.jar
 ```
 
-Import it in your favorite IDE as a Maven Project.
+Import it in your favorite IDE (preferably IntelliJ) as a Maven Project.
 
 ## Operations
 
@@ -85,11 +75,11 @@ the Vehicle information to be presented
 {
    "condition":"USED",
    "details":{
-      "body":"sedan",
-      "model":"Impala",
+      "body":"SUV",
+      "model":"Q7",
       "manufacturer":{
          "code":101,
-         "name":"Chevrolet"
+         "name":"Audi"
       },
       "numberOfDoors":4,
       "fuelType":"Gasoline",

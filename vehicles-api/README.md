@@ -13,8 +13,8 @@ view of vehicle details including price and address.
 
 #### Run the Code
 
-To properly run this application you need to start the Orders API and
-the Service API first.
+To properly run this application you need to start the Maps API and
+the Pricing API first.
 
 
 ```

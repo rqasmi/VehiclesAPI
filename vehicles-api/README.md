@@ -24,8 +24,9 @@ $ mvn clean package
 ```
 $ java -jar target/vehicles-api-0.0.1-SNAPSHOT.jar
 ```
+or
 
-Import it in your favorite IDE (preferably IntelliJ) as a Maven Project.
+Import it in your favorite IDE (preferably IntelliJ) as a Maven Project and run the VehiclesAPIApplication.
 
 ## Operations
 

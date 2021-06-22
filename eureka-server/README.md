@@ -1,4 +1,4 @@
-## Eureka Server 
+# Eureka Server 
 This module builds and runs a Eureka Server that is required to register the Pricing service as a microservice through Netflix's Eureka Client discovery.
 
 ## Run

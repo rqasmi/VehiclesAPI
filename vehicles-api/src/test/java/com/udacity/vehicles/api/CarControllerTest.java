@@ -98,7 +98,8 @@ public class CarControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$._embedded").exists())
                 .andExpect(jsonPath("$._embedded.carList").isNotEmpty())
-                .andExpect(jsonPath("$._embedded.carList[*].details.mileage").value(32280));
+                .andExpect(jsonPath("$._embedded.carList[*].details.mileage").value(32280))
+                .andExpect(jsonPath("$._embedded.carList[*].price").exists());
         verify(carService, times(1)).list();
     }
 

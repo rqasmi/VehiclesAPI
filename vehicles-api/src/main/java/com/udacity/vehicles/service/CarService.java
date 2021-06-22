@@ -79,6 +79,5 @@ public class CarService {
     public void delete(Long id) {
         Car car = repository.findById(id).orElseThrow(CarNotFoundException::new);
         repository.delete(car);
-
     }
 }

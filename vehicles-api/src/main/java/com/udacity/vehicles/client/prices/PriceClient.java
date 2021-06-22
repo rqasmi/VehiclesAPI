@@ -18,7 +18,7 @@ public class PriceClient {
     public PriceClient(WebClient pricing) {
         this.client = pricing;
     }
-    
+
     /**
      * Gets a vehicle price from the pricing client, given vehicle ID.
      * @param vehicleId ID number of the vehicle for which to get the price
